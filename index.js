@@ -24,7 +24,7 @@ weather.temperature={
 
 // varialbles and key
 const Kelvin = 273;
-const KEY = "2e78502c314f1e0ed209ceba278eaf26";
+const KEY = "";
 
 
 
