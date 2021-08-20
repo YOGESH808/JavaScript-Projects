@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colour Flipper</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
     <div class="head-container">
-        <span>Colour Flipper</span>
-        <div id="btn-container">
-        <button class="btn">Simple</button>
-        <button class="btn">Hex</button>
+      <div><span>Colour Flipper</span></div>
+      <div id="btn-container">
+        <button class="btn btn-dark">Simple</button>
+        <button class="btn btn-dark">Hex</button>
+      </div>
     </div>
+    <div id="background-container" style="height: 90vh;">
+      <h1>background-Colur: <span>Red</span></h1>
+      <button id="click-btn" class="btn btn-primary">Click Me</button>
     </div>
-    <div id="background-container">
-        <h1>background-Colur: <span>Red</span></h1>
-        <button id="click-btn">Click Me</button>
-    </div>
+  </div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
